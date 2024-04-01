@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bgImage {
+  background-image: url("../public/images/Group\ 18.png");
+  background-size: 100%;
+}
+
+.bgImage {
+  background-image: url("../public/images/Group\ 18.png");
+  background-size: 100%;
+}
+
+.gradientBg {
+  background-image: linear-gradient(to left, #38ef7d, #11998e);
+  /* display: inline-block; */
+  color: transparent;
+}
+.gradientBg2 {
+  background-image: linear-gradient(to left, #38ef7d, #11998e);
+  display: inline-block;
+  color: transparent;
+}
+.gradientBg3 {
+  background-image: linear-gradient(to left, #38ef7e74, #11998e8e);
+  /* display: inline-block; */
+  color: transparent;
+}
+
+.anima {
+  animation: slide infinite;
+}
+
+@keyframes slide {
+}
